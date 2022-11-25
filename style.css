@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+
+body {
+    font-family: "Roboto" , monospace;
+    position: relative;
+    width: 1152px;
+    height: 700px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+header {
+    display:flex;
+    position: absolute;
+    width: 1152px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background: #F5F5F6;
+    justify-content: space-between;
+}
+
+.head{
+    display: flex;
+    width: 640px;
+    height: 20px;
+    justify-content: space-between;
+}
+
+main{
+    position: absolute;
+    top: 106px;
+    left: 253px;
+}
+
+h2{
+    position: absolute;
+width: 587px;
+height: 32px;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+}
+
+.div_from, .div_to{
+    position: absolute;
+    top: 55px;
+    width: 259px;
+    height: 181px;
+}
+
+.div_to{
+    position: absolute;
+    left: 382px;
+}
+
+input{
+    position: absolute;
+    width: 220px;
+    height: 38px;
+    left: 14px;
+    top: 11px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.label_to, .label_from{
+box-sizing: border-box;
+
+position: absolute;
+width: 259px;
+height: 102px;
+top: 80px;
+
+border: 1px solid #E5E5E5;
+border-radius: 3
+}
+
+.button1, .button2{
+    display: flex; 
+}
+
+button{
+    height: 30px;
+    width: 65px;
+}
+
+.fromRate, .toRate{
+    position: absolute;
+    top:55px;
+    margin-left: 10px;
+}
+
+/* .btn_first{
+    background-color: #833AE0 ;
+    color: #fff;
+} */
+
+
